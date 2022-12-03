@@ -10,7 +10,7 @@ https://github.com/vincentrondero/Sam-Thing.git
 
 **Create virtual environment**
 ```
-py venv venv
+py -m venv venv
 ```
 **Make sure you activate your virtual environment**
 ```
