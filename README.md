@@ -26,19 +26,19 @@ Or
 ```
 pip install -r requirements.txt
 ```
-**First admin will login ( for username/password run following command)**
-```
-manage.py createsuperuser
-```
-- Give username, email, password and your admin account will be created.
-- This will allow the administrator to add products and navigate the dashboard
-- In the static/product_image folder a sample image can be used to add products for testing.
-
 **Then Execute Following Commands:**
 ```
 py manage.py makemigrations
 py manage.py migrate
 ```
+**First admin will login ( for username/password run following command)**
+```
+py manage.py createsuperuser
+```
+- Give username, email, password and your admin account will be created.
+- This will allow the administrator to add products and navigate the dashboard
+- **In the static/product_image folder a sample image can be used to add products for testing.**
+
 **Then runserver**
 ```
 py manage.py runserver
