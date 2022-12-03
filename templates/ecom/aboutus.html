@@ -5,12 +5,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="{% static "images/Landing_Image.png" %}">
   <title>Sam-Thing Garden</title>
 
-  <title>Sam-Thing</title>
   <style media="screen">
     .footer{
       position: fixed;
+    }
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("static/images/about_bg.jpg");
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
     }
   </style>
 </head>
@@ -21,9 +29,10 @@
   {%else%}
     {% include "ecom/navbar.html" %}
   {%endif%}
-  <br><br><br>
-<h3 style="text-align:center;">“I don’t create companies for the sake of creating companies, but to get things done.” </h3>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="hero-image">
+<br><br><br><br><br><br><br><br><br>
+<h3 style="text-align:center; color:#FFFFFF;">“Here at Sam-Thing Garden, we try to take the hassle out of buying a plant online. We bring you the perfect plant that's right for your home, right to your home! We believe that buying a new plant should be fun! Besides, we love giving you advice when buying a plant online” </h3>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
   {% include "ecom/footer.html" %}
 </body>
 

@@ -105,10 +105,10 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'static')
 
 LOGIN_REDIRECT_URL='/afterlogin'
 
-EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_BACKEND ='vincentrondero03@yahoo.com'
+EMAIL_HOST = 'vincentrondero03@yahoo.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'from@gmail.com'
+EMAIL_HOST_USER = 'vincentrondero03@yahoo.com'
 EMAIL_HOST_PASSWORD = 'xyz'
-EMAIL_RECEIVING_USER = ['to@gmail.com']
+EMAIL_RECEIVING_USER = ['vincentrondero03@yahoo.com']
