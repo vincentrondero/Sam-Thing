@@ -5,7 +5,7 @@
 
 **Download Source Code**
 ```
-https://github.com/vincentrondero/Sam-Thing.git)
+https://github.com/vincentrondero/Sam-Thing.git
 ```
 
 **Create virtual environment**
